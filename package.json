@@ -1,0 +1,33 @@
+{
+  "name": "test-observability-platform",
+  "version": "1.0.0",
+  "description": "Unified test intelligence platform — ingest results from Playwright, Jest, JUnit, k6, Pact, security scanners into one dashboard with trends and release readiness",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": { "testobs": "dist/cli.js" },
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "lint": "eslint . --ext .ts",
+    "format": "prettier --write \"**/*.ts\"",
+    "format:check": "prettier --check \"**/*.ts\"",
+    "typecheck": "tsc --noEmit"
+  },
+  "author": "Quvantic <info@quvantic.com> (https://quvantic.com)",
+  "license": "MIT",
+  "repository": { "type": "git", "url": "https://github.com/mustafaautomation/test-observability-platform.git" },
+  "homepage": "https://github.com/mustafaautomation/test-observability-platform#readme",
+  "dependencies": { "commander": "^12.1.0", "fast-xml-parser": "^4.5.1" },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "@typescript-eslint/eslint-plugin": "^7.0.0",
+    "@typescript-eslint/parser": "^7.0.0",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "prettier": "^3.3.0",
+    "typescript": "^5.7.0",
+    "vitest": "^3.0.0"
+  },
+  "engines": { "node": ">=20.0.0" },
+  "files": ["dist"]
+}

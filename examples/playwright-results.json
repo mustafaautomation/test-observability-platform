@@ -1,0 +1,22 @@
+{
+  "suites": [
+    {
+      "title": "Auth",
+      "tests": [
+        { "title": "login with valid credentials", "status": "passed", "duration": 1200 },
+        { "title": "login with invalid password", "status": "passed", "duration": 800 },
+        { "title": "logout flow", "status": "passed", "duration": 600 }
+      ],
+      "suites": []
+    },
+    {
+      "title": "Checkout",
+      "tests": [
+        { "title": "complete purchase", "status": "passed", "duration": 3500 },
+        { "title": "apply coupon code", "status": "failed", "duration": 2000 },
+        { "title": "empty cart validation", "status": "passed", "duration": 400 }
+      ],
+      "suites": []
+    }
+  ]
+}

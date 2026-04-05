@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="UserAPI" tests="4" failures="1" time="2.5">
+    <testcase name="GET /users returns list" classname="api.users" time="0.5"/>
+    <testcase name="POST /users creates user" classname="api.users" time="0.8"/>
+    <testcase name="GET /users/:id returns 404" classname="api.users" time="0.3"/>
+    <testcase name="DELETE /users/:id" classname="api.users" time="0.9">
+      <failure message="Expected 204 but got 403">Permission denied</failure>
+    </testcase>
+  </testsuite>
+</testsuites>

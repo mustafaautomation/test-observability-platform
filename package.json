@@ -17,7 +17,7 @@
   "license": "MIT",
   "repository": { "type": "git", "url": "https://github.com/mustafaautomation/test-observability-platform.git" },
   "homepage": "https://github.com/mustafaautomation/test-observability-platform#readme",
-  "dependencies": { "commander": "^12.1.0", "fast-xml-parser": "^4.5.1" },
+  "dependencies": { "commander": "^12.1.0", "fast-xml-parser": "^4.5.7" },
   "devDependencies": {
     "@types/node": "^22.10.0",
     "@typescript-eslint/eslint-plugin": "^7.0.0",

@@ -2,7 +2,7 @@
 
 [![CI](https://github.com/mustafaautomation/test-observability-platform/actions/workflows/ci.yml/badge.svg)](https://github.com/mustafaautomation/test-observability-platform/actions)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.7-3178C6.svg?logo=typescript&logoColor=white)](https://www.typescriptlang.org)
+[![TypeScript](https://img.shields.io/badge/TypeScript-6.0-3178C6.svg?logo=typescript&logoColor=white)](https://www.typescriptlang.org)
 
 Unified test intelligence platform — ingest results from Playwright, Jest, JUnit, k6, Pact into one view. Release readiness scoring, flakiness detection, signal-weighted quality gates.
 

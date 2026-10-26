@@ -1,12 +1,6 @@
 export type TestStatus = 'passed' | 'failed' | 'skipped';
 export type SignalType =
-  | 'e2e'
-  | 'api'
-  | 'unit'
-  | 'performance'
-  | 'security'
-  | 'accessibility'
-  | 'contract';
+  'e2e' | 'api' | 'unit' | 'performance' | 'security' | 'accessibility' | 'contract';
 
 export interface TestSignal {
   framework: string;
